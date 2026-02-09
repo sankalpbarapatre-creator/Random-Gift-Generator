@@ -1,0 +1,29 @@
+#include <iostream>
+#include <ctime>
+int main()
+{
+
+srand(time(0));
+
+int freegift = (rand() % 5) + 1 ;
+
+switch(freegift){
+    case 1:
+    std::cout<<"you win chocolate!\n";
+    break;
+    case 2:
+    std::cout<<"you win icecream!\n";
+    break;
+    case 3:
+    std::cout<<"you win dessert!\n";
+    break;
+    case 4:
+    std::cout<<"you win burger!\n";
+    break;
+    case 5:
+    std::cout<<"you win pasta!\n";
+    break;
+
+}
+return 0;
+}
